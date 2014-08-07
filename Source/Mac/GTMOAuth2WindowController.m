@@ -327,7 +327,7 @@ const char *kKeychainAccountName = "OAuth";
 
   // Avoid more callbacks after the close happens, as the window
   // controller may be gone.
-  [self.webView stopLoading:nil];
+  // [self.webView stopLoading:nil];
 
   NSWindow *parentWindow = self.sheetModalForWindow;
   if (parentWindow) {
